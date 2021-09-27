@@ -1,0 +1,43 @@
+###
+GET http://localhost:4000/api/devices
+
+###
+POST http://localhost:4000/api/devices
+Content-Type: application/json
+
+{
+"model":"XVR-1B08H",
+"serialnumber":"XVR4367542"
+}
+
+###
+GET http://localhost:4000/api/devices/6145084aa43b4751853e463e
+
+###
+DELETE http://localhost:4000/api/devices/6145084aa43b4751853e463e
+
+###
+PUT http://localhost:4000/api/devices/614507f34202862e7acc7c3e
+Content-Type: application/json
+
+{
+"serialnumber":"SerialNuevo"
+}
+
+
+
+
+###
+GET http://localhost:4000/api/clients
+
+
+###
+POST http://localhost:4000/api/clients
+Content-Type: application/json
+
+{
+"nombre":"Peña carlos Alberto",
+"correo":"cors@hotmail.com",
+"cedula":"19807675",
+"telefono":"453786"
+}
